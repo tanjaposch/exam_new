@@ -1311,6 +1311,11 @@ pre code {
   .col-md-12 {
     float: left;
   }
+  .col-md-4{
+  border-radius: 5px;
+	box-shadow: -7px -7px 5px #888;
+	margin-right: 20px;
+	}
   .col-md-12 {
     width: 100%;
   }
