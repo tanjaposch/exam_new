@@ -141,8 +141,10 @@ figure {
 
 fieldset {
   padding: 0.35em 0.625em 0.75em;
-  margin: 0 2px;
   border: 1px solid #c0c0c0;
+  width:503px; 
+  margin: 10px 0 57px 0;
+  float:left;
 }
 
 legend {
@@ -1878,9 +1880,10 @@ legend {
 }
 
 label {
-  display: inline-block;
+	margin-left: 2px;
+ /* display: inline-block;
   margin-bottom: 5px;
-  font-weight: bold;
+  font-weight: bold;*/
 }
 
 input[type="search"] {
@@ -7124,3 +7127,11 @@ td.visible-print {
     display: none !important;
   }
 }
+/*Styles for "suchformular.html*/
+#wgac{float: left; margin: 71px 0px 0px 20px;}
+	.button1{border-radius: 5px; cursor: pointer; margin-right: 2px; width: 114px; height: 27px; background-color: #e4e4e4; font-weight: bold;}
+	.button{border-radius: 5px; cursor: pointer; margin-right: 2px; width: 114px; height: 27px; background-color: #e4e4e4; font-weight: bold;}
+	#suchen{margin-top:10px; border-radius: 5px; height: 22px;  border: 1px solid #000000;}
+	.tableForm{width:300px;}
+	h1.suchform{clear:both; margin-top:10px;}
+	.back{clear:left;}
