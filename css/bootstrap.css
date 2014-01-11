@@ -48,7 +48,30 @@ body {
   /* Move down content because we have a fixed navbar that is 50px tall */
   padding-bottom: 20px;
 }
-
+/*Styles for "suchformular.html*/
+fieldset {
+  padding: 0.35em 0.625em 0.75em;
+  border: 1px solid #c0c0c0;
+  width:560px; 
+  margin: 10px 0 20px 10px;
+  float:left;
+}
+legend#legendSuchform {
+	font-size: 16px;
+}
+a#wgac {
+	float: left; 
+	margin: 69px 0px 0px 20px;
+}
+.button1{border-radius: 5px; cursor: pointer; margin-right: 2px; width: 135px; height: 27px; background-color: #e4e4e4; font-weight: bold;}
+.button{border-radius: 5px; cursor: pointer; margin-right: 2px; width: 135px; height: 27px; background-color: #e4e4e4; font-weight: bold;}
+#suchen{margin-top:10px; border-radius: 5px;  border: 1px solid #c0c0c0; padding-left:5px; font-size: 13px; height: 26px;}
+.tableForm{width:300px;}
+h1.special{clear:both; margin:20px 10px 20px 10px;}
+.back{clear:left; margin: 20px 10px 0 10px;}
+.tableButtons{
+	margin: 20px 0 10px 10px;
+}
 a {
   background: transparent;
 }
@@ -137,14 +160,6 @@ svg:not(:root) {
 
 figure {
   margin: 0;
-}
-
-fieldset {
-  padding: 0.35em 0.625em 0.75em;
-  border: 1px solid #c0c0c0;
-  width:503px; 
-  margin: 10px 0 57px 0;
-  float:left;
 }
 
 legend {
@@ -1861,13 +1876,9 @@ table th[class*="col-"] {
   }
 }
 
-fieldset {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
 
-legend {
+/*legend {
+
   display: block;
   width: 100%;
   padding: 0;
@@ -1877,7 +1888,7 @@ legend {
   color: #333333;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
-}
+}*/
 
 label {
 	margin-left: 2px;
@@ -1981,12 +1992,12 @@ output {
   color: #999999;
 }
 
-.form-control[disabled],
+/*.form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
   cursor: not-allowed;
   background-color: #eeeeee;
-}
+}*/
 
 textarea.form-control {
   height: auto;
@@ -2043,7 +2054,7 @@ textarea.form-control {
   margin-left: 10px;
 }
 
-input[type="radio"][disabled],
+/*input[type="radio"][disabled],
 input[type="checkbox"][disabled],
 .radio[disabled],
 .radio-inline[disabled],
@@ -2056,7 +2067,7 @@ fieldset[disabled] .radio-inline,
 fieldset[disabled] .checkbox,
 fieldset[disabled] .checkbox-inline {
   cursor: not-allowed;
-}
+}*/
 
 .input-sm {
   height: 30px;
@@ -2301,7 +2312,7 @@ textarea.input-lg {
           box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
-.btn.disabled,
+/*.btn.disabled,
 .btn[disabled],
 fieldset[disabled] .btn {
   pointer-events: none;
@@ -2310,7 +2321,7 @@ fieldset[disabled] .btn {
   filter: alpha(opacity=65);
   -webkit-box-shadow: none;
           box-shadow: none;
-}
+}*/
 
 .btn-default {
   color: #333333;
@@ -2334,7 +2345,7 @@ fieldset[disabled] .btn {
   background-image: none;
 }
 
-.btn-default.disabled,
+/*.btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default,
 .btn-default.disabled:hover,
@@ -2351,7 +2362,7 @@ fieldset[disabled] .btn-default:active,
 fieldset[disabled] .btn-default.active {
   background-color: #ffffff;
   border-color: #cccccc;
-}
+}*/
 
 .btn-default .badge {
   color: #ffffff;
@@ -2380,7 +2391,7 @@ fieldset[disabled] .btn-default.active {
   background-image: none;
 }
 
-.btn-primary.disabled,
+/*.btn-primary.disabled,
 .btn-primary[disabled],
 fieldset[disabled] .btn-primary,
 .btn-primary.disabled:hover,
@@ -2397,7 +2408,7 @@ fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
   background-color: #428bca;
   border-color: #357ebd;
-}
+}*/
 
 .btn-primary .badge {
   color: #428bca;
@@ -2426,7 +2437,7 @@ fieldset[disabled] .btn-primary.active {
   background-image: none;
 }
 
-.btn-warning.disabled,
+/*.btn-warning.disabled,
 .btn-warning[disabled],
 fieldset[disabled] .btn-warning,
 .btn-warning.disabled:hover,
@@ -2443,7 +2454,7 @@ fieldset[disabled] .btn-warning:active,
 fieldset[disabled] .btn-warning.active {
   background-color: #f0ad4e;
   border-color: #eea236;
-}
+}*/
 
 .btn-warning .badge {
   color: #f0ad4e;
@@ -2472,7 +2483,7 @@ fieldset[disabled] .btn-warning.active {
   background-image: none;
 }
 
-.btn-danger.disabled,
+/*.btn-danger.disabled,
 .btn-danger[disabled],
 fieldset[disabled] .btn-danger,
 .btn-danger.disabled:hover,
@@ -2489,7 +2500,7 @@ fieldset[disabled] .btn-danger:active,
 fieldset[disabled] .btn-danger.active {
   background-color: #d9534f;
   border-color: #d43f3a;
-}
+}*/
 
 .btn-danger .badge {
   color: #d9534f;
@@ -2518,7 +2529,7 @@ fieldset[disabled] .btn-danger.active {
   background-image: none;
 }
 
-.btn-success.disabled,
+/*.btn-success.disabled,
 .btn-success[disabled],
 fieldset[disabled] .btn-success,
 .btn-success.disabled:hover,
@@ -2535,7 +2546,7 @@ fieldset[disabled] .btn-success:active,
 fieldset[disabled] .btn-success.active {
   background-color: #5cb85c;
   border-color: #4cae4c;
-}
+}*/
 
 .btn-success .badge {
   color: #5cb85c;
@@ -2564,7 +2575,7 @@ fieldset[disabled] .btn-success.active {
   background-image: none;
 }
 
-.btn-info.disabled,
+/*.btn-info.disabled,
 .btn-info[disabled],
 fieldset[disabled] .btn-info,
 .btn-info.disabled:hover,
@@ -2581,7 +2592,7 @@ fieldset[disabled] .btn-info:active,
 fieldset[disabled] .btn-info.active {
   background-color: #5bc0de;
   border-color: #46b8da;
-}
+}*/
 
 .btn-info .badge {
   color: #5bc0de;
@@ -2595,14 +2606,14 @@ fieldset[disabled] .btn-info.active {
   border-radius: 0;
 }
 
-.btn-link,
+/*.btn-link,
 .btn-link:active,
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
-}
+}*/
 
 .btn-link,
 .btn-link:hover,
@@ -2618,13 +2629,13 @@ fieldset[disabled] .btn-link {
   background-color: transparent;
 }
 
-.btn-link[disabled]:hover,
+/*.btn-link[disabled]:hover,
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:focus {
   color: #999999;
   text-decoration: none;
-}
+}*/
 
 .btn-lg {
   padding: 10px 16px;
@@ -7127,11 +7138,3 @@ td.visible-print {
     display: none !important;
   }
 }
-/*Styles for "suchformular.html*/
-#wgac{float: left; margin: 71px 0px 0px 20px;}
-	.button1{border-radius: 5px; cursor: pointer; margin-right: 2px; width: 114px; height: 27px; background-color: #e4e4e4; font-weight: bold;}
-	.button{border-radius: 5px; cursor: pointer; margin-right: 2px; width: 114px; height: 27px; background-color: #e4e4e4; font-weight: bold;}
-	#suchen{margin-top:10px; border-radius: 5px; height: 22px;  border: 1px solid #000000;}
-	.tableForm{width:300px;}
-	h1.suchform{clear:both; margin-top:10px;}
-	.back{clear:left;}
