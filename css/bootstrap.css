@@ -1330,7 +1330,7 @@ pre code {
   }
   .col-md-4{
   border-radius: 5px;
-	box-shadow: -7px -7px 5px #888;
+	box-shadow: 7px 7px 5px #888;
 	margin-right: 20px;
 	}
   .col-md-12 {
