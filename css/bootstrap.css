@@ -72,6 +72,10 @@ h1.special{clear:both; margin:20px 10px 20px 10px;}
 .tableButtons{
 	margin: 20px 0 10px 10px;
 }
+navbar-brand-special{
+	color: #fc0;
+margin-right: 20px;
+}
 a {
   background: transparent;
 }
@@ -4513,6 +4517,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  color: #fc0;
+	margin-right: 20px;
 }
 
 .navbar-brand:hover,
@@ -4728,7 +4734,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-color: #e7e7e7;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default {
   color: #777777;
 }
 
